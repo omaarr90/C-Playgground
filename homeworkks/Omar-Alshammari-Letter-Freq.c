@@ -34,7 +34,6 @@ void print_frequncies(const int b[], size_t index)
     if(index == FREQ_SIZE) {
         return; //nothing to print
     }
-    const char lineformat = ((index % 3) == 0) ? '\n' : '\t';
     int offset = (index + A_CAPITAL_VALUE > Z_CAPITAL_VALUE) ? A_SMALL_OFFSET : 0;
     printf("%6c%16d\n", (index + A_CAPITAL_VALUE + offset), b[index]);
     print_frequncies(b, index + 1);
