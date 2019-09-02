@@ -1,0 +1,12 @@
+Q 7.19:
+
+The program will read two strings from the user. each with maximum letter of 79,
+then will pass these two strings to mystry.
+The mystery function first loop will move the pointer of s1 until it points to '\0'.
+The second loop will start copying the content of the second string into '\0' first and continue to destruct memory.
+The behaviour of this porgram is undefined. But it tries to append the content of string2 to string1.
+
+
+Q 7.20
+
+This program calucaltes the number of characters in a string.
